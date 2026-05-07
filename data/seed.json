@@ -1,0 +1,36 @@
+{
+  "accounts": [
+    {
+      "id": "acc_demo",
+      "handle": "@toyforgezssz",
+      "displayName": "ToyForge Demo",
+      "market": "US",
+      "shop": "TikTok Shop",
+      "status": "healthy",
+      "followers": 0,
+      "followersDelta": 0,
+      "dailyPostLimit": 3,
+      "tokenStatus": "mock",
+      "lastSync": null
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_demo",
+      "accountId": "acc_demo",
+      "title": "Demo model kit content workflow",
+      "hook": "A quick build preview for TikTok operations.",
+      "market": "US",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "views": 1200,
+      "likes": 86,
+      "comments": 8,
+      "shares": 12,
+      "saves": 24,
+      "followersGained": 5,
+      "source": "mock"
+    }
+  ],
+  "scheduledPosts": [],
+  "reports": []
+}
