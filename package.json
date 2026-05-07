@@ -1,0 +1,13 @@
+{
+  "name": "tiktok-ai-matrix-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TikTok AI Matrix OS deployment preview for Login Kit review.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
