@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: tiktok-ai-matrix-os
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node server.js"
+    envVars:
+      - key: TIKTOK_CLIENT_KEY
+        sync: false
+      - key: TIKTOK_CLIENT_SECRET
+        sync: false
+      - key: TIKTOK_REDIRECT_URI
+        value: https://tiktok-ai-matrix-os.onrender.com/api/tiktok/oauth/callback
+      - key: TIKTOK_SCOPES
+        value: user.info.basic
