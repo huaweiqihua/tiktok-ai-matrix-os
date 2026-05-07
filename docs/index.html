@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TikTok AI Matrix OS</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f5f2;
+        --ink: #1c1d20;
+        --muted: #62666d;
+        --line: #ddd8cf;
+        --panel: #ffffff;
+        --accent: #0f766e;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 72px 22px;
+      }
+      header {
+        display: grid;
+        gap: 18px;
+        margin-bottom: 44px;
+      }
+      .mark {
+        width: 52px;
+        height: 52px;
+        display: grid;
+        place-items: center;
+        border-radius: 8px;
+        background: #111;
+        color: #fff;
+        font-weight: 800;
+      }
+      h1 {
+        max-width: 780px;
+        margin: 0;
+        font-size: clamp(36px, 6vw, 68px);
+        line-height: 1;
+        letter-spacing: 0;
+      }
+      p {
+        max-width: 720px;
+        margin: 0;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+      .card {
+        min-height: 160px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      h2 {
+        margin: 0 0 10px;
+        font-size: 18px;
+      }
+      .links {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin-top: 34px;
+      }
+      a {
+        color: var(--accent);
+        font-weight: 650;
+      }
+      @media (max-width: 760px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="mark">TM</div>
+        <h1>TikTok AI Matrix OS</h1>
+        <p>An AI workspace for authorized TikTok sellers and content teams to manage account operations, schedule content, import analytics, and generate daily performance reports.</p>
+      </header>
+
+      <section class="grid" aria-label="Product capabilities">
+        <article class="card">
+          <h2>Account Operations</h2>
+          <p>Manage authorized TikTok accounts, posting schedules, and operational guardrails in one workspace.</p>
+        </article>
+        <article class="card">
+          <h2>Analytics</h2>
+          <p>Review video metrics, account trends, imported CSV data, and high-performing content patterns.</p>
+        </article>
+        <article class="card">
+          <h2>AI Reports</h2>
+          <p>Generate daily summaries, content recommendations, risk notes, and next-day publishing ideas.</p>
+        </article>
+      </section>
+
+      <nav class="links" aria-label="Legal links">
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="mailto:zhushuai@wangyundian.com">Contact</a>
+      </nav>
+    </main>
+  </body>
+</html>
