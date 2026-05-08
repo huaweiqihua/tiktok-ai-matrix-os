@@ -460,6 +460,7 @@ async function handleApi(req, res, url) {
       response_type: "code",
       redirect_uri: env("TIKTOK_REDIRECT_URI") || "http://localhost:3000/api/tiktok/oauth/callback",
       state: stateToken,
+      disable_auto_auth: "1",
       code_challenge: pkce.codeChallenge,
       code_challenge_method: "S256"
     });
